@@ -1,6 +1,6 @@
-<template name="49ffe598">
-  <view class="_div data-v-1c100109 click-counter">
-    <view class="_div data-v-1c100109 counter-num"> 次数：{{num}}
-    </view> <button class="_button data-v-1c100109 counter-btn" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">点我呀</button> <button class="_button data-v-1c100109 counter-reset-btn" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">重置</button>
+<template name="408a7738">
+  <view class="_div data-v-346ef671 click-counter">
+    <view class="_div data-v-346ef671 counter-num"> 次数：{{num}}
+    </view> <button class="_button data-v-346ef671 counter-btn" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">点我呀</button> <button class="_button data-v-346ef671 counter-reset-btn" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">重置</button>
   </view>
 </template>

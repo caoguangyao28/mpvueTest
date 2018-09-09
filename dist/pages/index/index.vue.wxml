@@ -1,14 +1,14 @@
 <import src="/components/card.vue.wxml" />
-<import src="/components/click-counter.vue.wxml" /><template name="0b4ce77d">
-  <view class="_div data-v-5daef28f container" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
-    <view class="_div data-v-5daef28f userinfo" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
-      <image class="_img data-v-5daef28f userinfo-avatar" wx:if="{{userInfo.avatarUrl}}" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <view class="_div data-v-5daef28f userinfo-nickname"><template data="{{...$root[$kk+'0'], $root}}" is="1dcdb8a3"></template></view>
+<import src="/components/click-counter.vue.wxml" /><template name="15c80c0e">
+  <view class="_div data-v-62687bb2 container" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-62687bb2 userinfo" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <image class="_img data-v-62687bb2 userinfo-avatar" wx:if="{{userInfo.avatarUrl}}" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <view class="_div data-v-62687bb2 userinfo-nickname"><template data="{{...$root[$kk+'0'], $root}}" is="28118bc2"></template></view>
     </view>
-    <view class="_div data-v-5daef28f usermotto">
-      <view class="_div data-v-5daef28f user-motto"><template data="{{...$root[$kk+'1'], $root}}" is="1dcdb8a3"></template></view>
+    <view class="_div data-v-62687bb2 usermotto">
+      <view class="_div data-v-62687bb2 user-motto"><template data="{{...$root[$kk+'1'], $root}}" is="28118bc2"></template></view>
     </view>
-    <form class="_form data-v-5daef28f form-container"><input type="text" class="_input data-v-5daef28f form-control" value="{{motto}}" bindinput="handleProxy" placeholder="v-model" data-eventid="{{'1'}}" data-comkey="{{$k}}" /> <input type="text" class="_input data-v-5daef28f form-control" value="{{motto}}" bindblur="handleProxy" placeholder="v-model.lazy" data-eventid="{{'2'}}" data-comkey="{{$k}}" /></form>
-    <navigator url="/pages/counter/main" class="_a data-v-5daef28f counter">去往Vuex示例页面</navigator> <template data="{{...$root[$kk+'2'], $root}}" is="49ffe598"></template>
+    <form class="_form data-v-62687bb2 form-container"><input type="text" class="_input data-v-62687bb2 form-control" value="{{motto}}" bindinput="handleProxy" placeholder="v-model" data-eventid="{{'1'}}" data-comkey="{{$k}}" /> <input type="text" class="_input data-v-62687bb2 form-control" value="{{motto}}" bindblur="handleProxy" placeholder="v-model.lazy" data-eventid="{{'2'}}" data-comkey="{{$k}}" /></form>
+    <navigator url="/pages/counter/main" class="_a data-v-62687bb2 counter">去往Vuex示例页面</navigator> <template data="{{...$root[$kk+'2'], $root}}" is="408a7738"></template>
   </view>
 </template>
