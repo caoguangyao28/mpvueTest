@@ -40,10 +40,12 @@ export default {
   border: 1px solid red;
   background-color: #ffffff;
   padding: 10px;
+  width: 80%;
 }
 .counter-num, .counter-btn, .counter-reset-btn {
   flex: 1;
-  margin: 3px;  
+  margin: 3px;
+  font-size: 14px;
 }
 </style>
 
