@@ -46,20 +46,12 @@ export default {
   background-color: #ffffff;
   padding: 10px;
   width: 80%;
-<<<<<<< HEAD
-}
-.counter-num, .counter-btn, .counter-reset-btn {
-  flex: 1;
-  margin: 3px;
-  font-size: 14px;
-=======
   font-size: 14px;
 }
 .counter-num, .counter-btn, .counter-reset-btn {
   flex: 1;
   margin: 3px;  
   font-size: 16px;
->>>>>>> c9bc25f5c0ea07b1e6a02ef00ae04c3498eccaec
 }
 </style>
 
