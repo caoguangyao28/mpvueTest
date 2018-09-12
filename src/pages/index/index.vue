@@ -19,7 +19,9 @@
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
     <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
-    <click-counter :init-num="10" />
+    <click-counter :init-num="10" @clicknum="clickHandle('child-up',$event)" />
+    <click-counter :init-num="10" @clicknum="clickHandle('child-up',$event)" />
+    <click-counter :init-num="10" @clicknum="clickHandle('child-up',$event)" />
   </div>
 </template>
 

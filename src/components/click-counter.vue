@@ -23,10 +23,15 @@ export default {
   },
   methods: {
     handleClick () {
-      this.num += 1
+      this.num += 1;
+      this.notifyNum();
     },
     handleResetClick () {
-      this.num = 0
+      this.num = this.initNum;
+      this.notifyNum();
+    },
+    notifyNum () {
+      this.$emit('clicknum', {num: this.num})
     }
   }
 }
@@ -40,10 +45,13 @@ export default {
   border: 1px solid red;
   background-color: #ffffff;
   padding: 10px;
+  width: 80%;
+  font-size: 14px;
 }
 .counter-num, .counter-btn, .counter-reset-btn {
   flex: 1;
   margin: 3px;  
+  font-size: 16px;
 }
 </style>
 
