@@ -1,7 +1,7 @@
-<template name="98589632">
-  <view class="_div data-v-5f3072b9 counter-warp">
-    <view class="_p data-v-5f3072b9">Vuex counter：{{ count }}</view>
-    <view class="_p data-v-5f3072b9"><button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-5f3072b9">+</button> <button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-5f3072b9">-</button></view>
-    <navigator url="/pages/index/main" class="_a data-v-5f3072b9 home">去往首页</navigator>
+<template name="66281863">
+  <view class="_div data-v-0750875e counter-warp">
+    <view class="_p data-v-0750875e">Vuex counter：{{ count }}</view>
+    <view class="_p data-v-0750875e"><button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-0750875e">+</button> <button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-0750875e">-</button></view>
+    <navigator url="/pages/index/main" class="_a data-v-0750875e home">去往首页</navigator>
   </view>
 </template>

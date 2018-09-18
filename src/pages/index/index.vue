@@ -22,6 +22,8 @@
     <click-counter :init-num="10" @clicknum="clickHandle('child-up',$event)" />
     <click-counter :init-num="10" @clicknum="clickHandle('child-up',$event)" />
     <click-counter :init-num="10" @clicknum="clickHandle('child-up',$event)" />
+
+    <i-button type="primary" @click="alertButton">这是一个按钮</i-button>
   </div>
 </template>
 
@@ -60,6 +62,13 @@ export default {
     },
     clickHandle (msg, ev) {
       console.log('clickHandle:', msg, ev)
+    },
+    alertButton(){
+      wx.showToast({
+        title: '成功',
+        icon: '',
+        duration: 2000
+      });
     }
   },
 
